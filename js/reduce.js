@@ -15,4 +15,4 @@ var amigos = [{
 
   var alllivros = amigos.reduce((prev, curr) => {
     return [...prev, ...curr.livros];
-  }, ['Alphabet']);
+  }, ['Alphabet'] );
